@@ -1,0 +1,148 @@
+/* src/styles.css */
+
+body {
+  font-family: "Arial, sans-serif";
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.loan-details-card,
+.interest-details-card {
+  background: white;
+  padding: 20px 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 48%;
+}
+
+.loan-details-card h2,
+.interest-details-card h2 {
+  margin: 0 0 10px 0;
+}
+
+.loan-details-content,
+.interest-details-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.contact-info-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-info-button:hover {
+  background-color: #0056b3;
+}
+
+.monthly-payment {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.chart-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.chart-values {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.interest-value,
+.principal-value {
+  text-align: center;
+}
+
+.interest-value h2,
+.principal-value h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.interest-value p,
+.principal-value p {
+  margin: 5px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.interest-value span,
+.principal-value span {
+  color: #666;
+}
+
+.debt-schedule-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.debt-schedule-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.interest-rate-buttons span {
+  margin-right: 10px;
+}
+
+.toggle-button,
+.download-button,
+.share-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-button:hover,
+.download-button:hover,
+.share-button:hover {
+  background-color: #0056b3;
+}
+
+.debt-schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.debt-schedule-table th,
+.debt-schedule-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.debt-schedule-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
